@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let x=parseInt(prompt("Digite um número"));
+        let y=parseInt(prompt("Digite um segundo número"));
+        let op=parseInt(prompt("1-Soma 2-Subtração 3-Multiplicação 4-Divisão 5-Sair"))
+
+        switch(op)
+        {
+            case 1:
+            soma(x,y);
+            break;
+            case 2:
+            sub(x,y);
+            break;
+            case 3:
+            mul(x,y);
+            break;
+            case 4:
+            div(x,y);
+            break;
+            case 5:
+            break;
+
+
+        }
+    function soma(a,b)
+    {
+        result=a+b;
+        alert(`Resultado: ${result}`);
+    }
+    function sub(a,b)
+    {
+        result=a-b;
+        alert(`Resultado: ${result}`);
+    }
+
+    function mul(a,b)
+    {
+        result=a*b;
+        alert(`Resultado: ${result}`);
+    }
+
+    function div(a,b)
+    {
+        result=a/b;
+        alert(`Resultado: ${result}`);
+    }
+
+    </script>
+
+
+</body>
+</html>
